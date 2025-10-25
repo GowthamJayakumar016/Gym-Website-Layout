@@ -1,0 +1,92 @@
+.Logo{
+  font-size:26px;
+  font-family: sans-serif;
+  position: relative;
+  left:30px
+}
+.brand_logo{
+  height: 40px;
+  width: 40px;
+  margin-top:11px;
+  margin-right: 5px;
+  position: relative;
+  left:25px
+}
+body{
+  margin: 0;
+}
+.landing-box{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100rem;
+  height: 04rem;
+  background-color:#29FFBC;
+  margin-block-end: 0%;
+  
+}
+.nav-bar{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+gap: 30px;
+position:absolute ;
+right: 5px;
+}
+.brand-box{
+display: flex;
+justify-content: space-between;
+position: relative;
+}
+h3{
+font-family:"Inter",sans-serif;
+cursor: pointer;
+font-size: 15px;
+line-height: 30px;
+font-weight:bolder;
+}
+#photo_1{
+  position: absolute;
+  top: 180px;
+  height: 360px;
+  width: 360px;
+  right: 500px;
+ border-color: #29FFBC;
+  display: flex;
+    flex-direction: column;
+}
+.photo_div{
+ 
+ margin: 0;
+  width: 100rem;
+  height: 45rem;
+  text-align: center;
+  background-color: #29FFBC;
+ 
+}
+.Land-Text{
+  position:absolute;
+  bottom: 120px;
+  left: 450px;
+}
+.btn {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 50px;
+  right: 620px;
+}
+.Desc{
+font-size: 40px;
+ font-family: sans-serif;
+ text-align: center;
+
+}
